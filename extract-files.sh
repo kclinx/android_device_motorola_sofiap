@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE_COMMON=rav
+DEVICE_COMMON=sofiap
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks

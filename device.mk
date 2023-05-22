@@ -18,10 +18,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Include GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/rav/rav-vendor.mk)
+$(call inherit-product, vendor/motorola/sofiap/sofiap-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

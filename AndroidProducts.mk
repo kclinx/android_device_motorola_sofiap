@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rav.mk
+    $(LOCAL_DIR)/lineage_sofiap.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rav-user \
-    lineage_rav-userdebug \
-    lineage_rav-eng
+    lineage_sofiap-user \
+    lineage_sofiap-userdebug \
+    lineage_sofiap-eng
