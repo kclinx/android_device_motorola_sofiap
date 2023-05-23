@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/motorola/rav
+COMMON_PATH := device/motorola/sofiap
 
 BOARD_VENDOR := motorola
 
@@ -56,7 +56,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
-BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 earlycon=msm_geni_serial,0x4a90000 loop.max_part=7 cgroup.memory=nokmem,nosocket androidboot.usbcontroller=4e00000.dwc3 printk.devkmsg=on androidboot.hab.csv=11 androidboot.hab.product=rav androidboot.hab.cid=50 firmware_class.path=/vendor/firmware_mnt/image
+BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 earlycon=msm_geni_serial,0x4a90000 loop.max_part=7 cgroup.memory=nokmem,nosocket androidboot.usbcontroller=4e00000.dwc3 printk.devkmsg=on androidboot.hab.csv=11 androidboot.hab.product=sofiap androidboot.hab.cid=50 firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
@@ -70,7 +70,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sm6125
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r365631c
 
-TARGET_KERNEL_CONFIG := vendor/rav_defconfig
+TARGET_KERNEL_CONFIG := vendor/sofiap_defconfig
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
@@ -180,4 +180,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/motorola/rav/BoardConfigVendor.mk
+-include vendor/motorola/sofiap/BoardConfigVendor.mk

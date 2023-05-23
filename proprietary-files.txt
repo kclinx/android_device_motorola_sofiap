@@ -1,4 +1,4 @@
-# Stock package version: motorola/rav_reteu/rav:10/QPJS30.63-35-1-15/37df17:user/release-keys
+# Stock package version: motorola/sofiap_reteu/sofiap:10/QPJS30.63-35-1-15/37df17:user/release-keys
 
 # ANT+
 product/lib64/com.qualcomm.qti.ant@1.0.so
