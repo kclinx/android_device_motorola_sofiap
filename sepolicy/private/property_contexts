@@ -1,2 +1,2 @@
+#hal_light_default   u:object_r:coredomain:s0
 sys.display.mode    u:object_r:config_prop:s0
-hal_light_default   u:object_r:coredomain:s0
