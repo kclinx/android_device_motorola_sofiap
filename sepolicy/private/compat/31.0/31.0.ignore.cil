@@ -1,0 +1,22 @@
+(type new_objects)
+(typeattribute new_objects)
+(typeattributeset new_objects
+  ( new_objects
+    ab_block_device
+    custom_ab_block_device
+    dummy_type_meant_to_prevent_selinux_compilation_from_failing_when_system_ext_public_dir_has_nothing_but_attributes
+    efs_boot_dev
+    gpt_block_device
+    limits_block_device
+    mdtp_device
+    modem_block_device
+    modem_efs_partition_device
+    persist_block_device
+    recovery_update_prop
+    rpmb_device
+    sg_device
+    ssd_block_device
+    sysfs_scsi_target
+    uefi_block_device
+    xbl_block_device
+))
