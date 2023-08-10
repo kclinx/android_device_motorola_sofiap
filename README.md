@@ -1,4 +1,6 @@
-This repository contains common device configuration for Mtorola G8/G Fast (RAV)
+# This repository contains common device configuration for the Motorola G Stylus - sofiap (the 2020 version)
+* Progress:
+  * WIP, but does build.
 
 ## Copyright
 
